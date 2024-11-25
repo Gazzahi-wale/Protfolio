@@ -1,0 +1,392 @@
+body{
+ 
+   
+}
+footer{
+  background-color:  rgba(1, 1, 7, 0.936);
+ 
+}
+header{
+  background-color: rgba(1, 1, 7, 0.936);
+}
+.about{
+  background-color: rgba(1, 1, 4, 0.899);
+ 
+}
+.portfolio{
+  background-color: rgba(1, 1, 4, 0.899);
+}
+
+
+.skills{
+  background-color: rgba(1, 1, 7, 0.936);
+ 
+  padding-left:150px ;
+}
+
+.navbar .nav-link,
+.navbar .nav-link.active {
+  font-size: 18px;
+  margin: 24px 12px;
+  color: rgba(255, 255, 255, 0.696);
+  font-weight: 500;
+  transition: 0.3s;
+}
+.download{
+  background-color: #187ae3 !important;
+font-size: 15.5px;
+font-weight: 500;
+padding: 8px 16px;}
+.nav-link:hover{
+    color: #187ae3 !important;
+}
+
+.download:hover{background-color: #052660 !important ;}
+.hero-info{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;}
+    .hero-info > h3 {
+        font-weight: 600;
+        font-size: 24px;
+        letter-spacing: 0.1px;
+        color: rgba(255, 255, 255, 0.696);
+        margin-bottom: 30px;
+        overflow: hidden; /* Hides the overflow text */
+        white-space: nowrap; /* Prevents text from wrapping */
+        animation: typingH3 1.8s steps(22, end) infinite; /* Infinite loop for typing */
+      }
+      
+      .hero-info > h1 {
+        font-weight: 600;
+        font-size: 40px;
+        letter-spacing: 5px;
+        color: rgba(255, 255, 255, 0.696);
+        margin-bottom: 30px;
+        overflow: hidden; /* Hides the overflow text */
+        white-space: nowrap; /* Prevents text from wrapping */
+        animation: typingH1 1.8s steps(40, end) infinite; /* Infinite loop for typing */
+      }
+    .hero-info>h4{
+        font-weight: 700;
+        font-size: 36px;
+        letter-spacing: 0.1px;
+      font-family: sans-serif;
+      color: #187ae3;
+      margin-bottom: 30px;
+
+    }
+  
+    .btn-red{
+        background-color: #187ae3;
+        padding: 10px 32px;
+        font-weight: 500;
+        font-size: 15.5px;
+        color: rgba(255, 255, 255, 0.696);
+    }
+    .btn-red:hover{
+        background-color: #052660  !important;
+        
+    }
+    .btn-white{
+        
+        padding: 10px 34px;
+        font-weight: 500;
+        color: rgba(255, 255, 255, 0.719);
+    }
+    .btn-white:hover{
+        background-color: #052660 !important;
+        color: white !important; 
+    }
+  /* From Uiverse.io by PapaUiiss404 */ 
+.card {
+    width: fit-content;
+    height: fit-content;
+    gap: 20px;
+    background-color:transparent;
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    align-items: center;
+    justify-content: center;
+    padding: 25px 25px;
+    gap: 20px;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.055);
+  }
+  
+  /* for all social containers*/
+  .socialContainer {
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+    background-color: rgb(44, 44, 44);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    transition-duration: .3s;
+  }
+  /* instagram*/
+  .containerOne:hover {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  .containerOne1 {
+    background-color: #d62976;
+    transition-duration: .3s;
+  }
+  /* github*/
+  .containerTwo:hover {
+    background-color: gray;
+    transition-duration: .3s;
+  }
+  .containerTwo2 {
+    background-color: gray;
+    transition-duration: .3s;
+  }
+  .socialSvg.githubSvg {
+    width: 24px;
+    height: 24px;
+    fill: white;
+    transition: fill 0.3s ease;
+  }
+  
+
+  
+  /* linkdin*/
+  .containerThree:hover {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  .containerThree3 {
+    background-color: #0072b1;
+    transition-duration: .3s;
+  }
+  /* Whatsapp*/
+  .containerFour:hover {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }.containerFour4 {
+    background-color: #128C7E;
+    transition-duration: .3s;
+  }
+  
+  .socialContainer:active {
+    transform: scale(0.9);
+    transition-duration: .3s;
+  }
+  
+  .socialSvg {
+    width: 17px;
+  }
+  
+  .socialSvg path {
+    fill: rgb(255, 255, 255);
+  }
+  
+  .socialContainer:hover .socialSvg {
+    animation: slide-in-top 0.3s both;
+  }
+ 
+  .im {
+    animation: scale-up-bottom 0.4s cubic-bezier(.39, .575, .565, 1.000) both;
+   
+  filter: drop-shadow(10px 10px 15px  rgb(48, 47, 47)); /* Add a gray shadow */
+}
+
+  @-webkit-keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.8}100%{opacity:1}}@keyframes tracking-in-expand{0%{letter-spacing:-.5em;opacity:0}40%{opacity:.8}100%{opacity:1}}
+  @keyframes scale-up-bottom{0%{transform:scale(.8);transform-origin:50% 100%}100%{transform:scale(1);transform-origin:50% 100%}}
+ /* Typewriter animation for h3 */
+@keyframes typingH3 {
+    from {
+      width: 0; /* Starts with no visible text */
+    }
+    to {
+      width: 100%; /* Text fully typed out */
+    }
+  }
+  
+  /* Typewriter animation for h1 */
+  @keyframes typingH1 {
+    from {
+      width: 0; /* Starts with no visible text */
+    }
+    to {
+      width: 100%; /* Text fully typed out */
+    }
+  }
+  span{ color:#187ae3 ;
+    font-size: 25px;
+    font-weight: 700;}
+    .wh{
+      color: rgba(244, 233, 233, 0.84);
+      text-decoration: none;
+    }
+    .par{
+      color:  rgba(244, 233, 233, 0.84);
+    }
+ 
+    .my{
+      color: white;
+      font-size: 46px;
+      font-weight: 700;
+    }
+    .sk{
+      color:#187ae3;
+      font-size: 46px;
+      font-weight: 700;
+    }
+    .ima img{
+      width: 90px;
+      height: 60px;
+      border-radius: 50%;
+
+    }
+
+
+    .contact {
+      background-color: #1c1c1c; /* Same dark background */
+      padding: 50px 0;
+      
+    }
+    
+    .contact-info {
+      border: 3px solid rgb(156, 156, 156); /* Border around the contact box */
+      border-radius: 10px;
+      background-color: #1c1c1c; /* Slightly lighter background */
+      text-align: left;
+      height: 400px;
+    }
+    
+    .contact-info h5 {
+      font-size: 18px;
+      font-weight: bold;
+      margin-bottom: 10px;
+    }
+    
+    .contact-info p {
+      margin: 5px 0;
+      font-size: 16px;
+      line-height: 1.5;
+    }
+    
+    .form-control {
+      border: 2px solid  rgb(156, 156, 156);
+      border-radius: 8px;
+      background-color:  #1c1c1c;
+      color: #fff;
+    }
+    
+    .form-control::placeholder {
+      color: #888;
+    }
+    
+    .form-control:focus {
+      border-color: #6c63ff; /* Purple outline on focus */
+      box-shadow: 0 0 5px #6c63ff;
+    }
+    
+    button.btn2 {
+      background-color: #187ae3;
+      color: #fff;
+      border: none;
+      padding: 10px 20px;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+    
+    button.btn2:hover {
+      background-color: #052660;
+    }
+    
+    button.btn i {
+      margin-left: 5px;
+    }
+    .card2 {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      gap: 20px; /* Adjust the gap between icons as needed */
+      margin-top: -10px;
+      margin-bottom: 35px;
+    }
+    
+    .socialContainer {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+
+
+    @media only screen and (max-width: 767px) {
+      dotlottie-player {
+        width: 320px !important;
+        height: 340px !important;
+      
+      }
+      hr {
+        display: none;
+      }
+      .ima img{
+        
+        margin-top: 28px;
+        margin-right: 5px;
+      }
+    }
+    
+    
+      
+      @media (max-width: 750px) {
+  body {
+    overflow-x: hidden;
+  }
+
+  .skills {
+    padding-left: 0 !important;
+  }
+
+  .hero-info {
+    padding-right: 10px;
+  }
+}
+
+    
+    
+
+
+
+      
+      .skills .my {
+       
+        margin-left: 0 !important;  /* Remove left margin */
+      }
+    
+   
+    .carousel-caption h5, .carousel-caption p {
+      margin: 0;
+   
+      border: 0.5px solid rgb(160, 156, 156);
+      padding: 5px 10px; /* Optional: Add padding for better spacing */
+      background-color: rgba(0, 0, 0, 0.5); /* Optional: Add a background to improve readability */
+      color: white;
+      display: inline-block;
+    }
+      .carousel-control-next-icon {
+    filter: invert(1); /* Changes the default white icon to black */
+  }   .carousel-control-prev-icon {
+    filter: invert(1); /* Changes the default white icon to black */
+  }
+ 
+  /* Make the active indicator more visible */
+  .carousel-indicators .active {
+    background-color: black; /* Active state indicator */
+    opacity: 1; /* Optional: Slightly dim active indicator for effect */
+  }
+ 
+  img.d-block {
+    padding: 10px;
+    border-radius: 3%;
+    height: 600px !important; /* Force override Bootstrap settings */
+  }
+    
